@@ -1,0 +1,57 @@
+{
+  "name": "@aquari-one/nextjs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Official Aquari One integration for Next.js.",
+  "type": "module",
+  "sideEffects": false,
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "clean": "rm -rf dist",
+    "test": "vitest run --passWithNoTests"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@aquari-one/sdk": "1.0.0"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "peerDependencies": {
+    "next": ">=16 <17"
+  },
+  "devDependencies": {
+    "next": "16.2.9"
+  },
+  "license": "Apache-2.0",
+  "author": "Aquari One LLC",
+  "homepage": "https://docs.aquari.one/sdks/typescript",
+  "keywords": [
+    "aquari-one",
+    "oauth2",
+    "oidc",
+    "identity",
+    "nextjs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/nousen-group/aquari/aquari-typescript.git",
+    "directory": "packages/nextjs"
+  }
+}

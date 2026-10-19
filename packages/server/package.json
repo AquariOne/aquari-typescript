@@ -1,0 +1,52 @@
+{
+  "name": "@aquari-one/server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Official Aquari One trusted-server and machine SDK for TypeScript and JavaScript.",
+  "type": "module",
+  "sideEffects": false,
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "clean": "rm -rf dist",
+    "test": "vitest run --passWithNoTests"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@aquari-one/sdk": "1.0.0"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "license": "Apache-2.0",
+  "author": "Aquari One LLC",
+  "homepage": "https://docs.aquari.one/sdks/typescript",
+  "keywords": [
+    "aquari-one",
+    "oauth2",
+    "oidc",
+    "identity",
+    "server",
+    "webhooks"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/nousen-group/aquari/aquari-typescript.git",
+    "directory": "packages/server"
+  }
+}

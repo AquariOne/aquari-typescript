@@ -1,0 +1,75 @@
+export {
+  AquariMachineClient,
+  AquariServerClient,
+  type AquariServerClientOptions,
+} from "./client.js";
+
+export {
+  AquariBadgeIssuerClient,
+  AquariCredentialIssuerClient,
+  AquariEntitlementIssuerClient,
+  AquariIssuerClient,
+  AquariMembershipIssuerClient,
+  AquariStampIssuerClient,
+} from "./issuer.js";
+
+export type {
+  AquariBadgeIssueInput,
+  AquariBadgeIssueResult,
+  AquariBadgeSignal,
+  AquariCredentialEvidence,
+  AquariCredentialEvidenceInput,
+  AquariCredentialEvidenceType,
+  AquariCredentialIssueInput,
+  AquariCredentialIssueResult,
+  AquariCredentialSignal,
+  AquariCredentialUpdateInput,
+  AquariEntitlementIssueInput,
+  AquariEntitlementIssueResult,
+  AquariEntitlementPlan,
+  AquariEntitlementSignal,
+  AquariEntitlementUpdateInput,
+  AquariIssueOptions,
+  AquariIssuerIdentity,
+  AquariMachineContext,
+  AquariMachineHealth,
+  AquariMembershipIssueInput,
+  AquariMembershipIssueResult,
+  AquariMembershipRole,
+  AquariMembershipSignal,
+  AquariMembershipUpdateInput,
+  AquariServerRequestOptions,
+  AquariStampIssueInput,
+  AquariStampIssueResult,
+  AquariStampScope,
+  AquariStampSignal,
+} from "./models.js";
+
+export {
+  AquariWebhookPayloadError,
+  AquariWebhookVerificationError,
+  verifyAquariWebhook,
+  type AquariApplicationConnectionCreatedData,
+  type AquariApplicationConnectionRevokedData,
+  type AquariApplicationUpdatedData,
+  type AquariKnownWebhookEvent,
+  type AquariOrganizationDomainRevokedData,
+  type AquariOrganizationDomainVerifiedData,
+  type AquariOrganizationMemberAddedData,
+  type AquariOrganizationMemberRemovedData,
+  type AquariOrganizationMemberUpdatedData,
+  type AquariOrganizationOwnershipTransferredData,
+  type AquariPassportSignalVisibilityUpdatedData,
+  type AquariPassportVisibilityUpdatedData,
+  type AquariWebhookEnvelope,
+  type AquariWebhookEvent,
+  type AquariWebhookHeaders,
+  type AquariWebhookVerificationErrorOptions,
+  type AquariWebhookVerificationFailure,
+  type VerifyAquariWebhookOptions,
+} from "./webhooks.js";
+
+export {
+  AquariMachineScopes,
+  type AquariMachineScope,
+} from "./scopes.js";

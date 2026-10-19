@@ -1,0 +1,339 @@
+{
+  "family": "typescript",
+  "version": "1.0.0",
+  "source_commit": "cf893e2d16b86550dc2df1cb997112635fd8b0e1",
+  "source_worktree_dirty": false,
+  "note": "SDK-only export. No private monorepo Git history is included.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 36,
+      "sha256": "1af166ac49869b9ac380095c8a7aac1989558cbb4d2674f3559b11f0093120a6"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "NOTICE",
+      "bytes": 224,
+      "sha256": "dc108c5070eb593e42d0f126e91fd47c7f2416d627cd53a9cd1198120e5bc5ba"
+    },
+    {
+      "path": "README.md",
+      "bytes": 284,
+      "sha256": "3026df3cb0a7491c190159f90d2bca075de5516955bf7a0bfb11d0a8f94a98a6"
+    },
+    {
+      "path": "eslint.config.mjs",
+      "bytes": 514,
+      "sha256": "3fd34eeb97c984e99346e74427df5c1342a9b965294414cb79f5a5f6460787f2"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 122210,
+      "sha256": "fdc2d21eaedd8ccc284e72173f2844e5f40a41922a21a3015ae1cdb71e9dab13"
+    },
+    {
+      "path": "package.json",
+      "bytes": 776,
+      "sha256": "d871aaaa4d37c6d4f10daf5cf6b45920329e71af8006afe5289324434bc524bf"
+    },
+    {
+      "path": "packages/nextjs/LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "packages/nextjs/NOTICE",
+      "bytes": 224,
+      "sha256": "dc108c5070eb593e42d0f126e91fd47c7f2416d627cd53a9cd1198120e5bc5ba"
+    },
+    {
+      "path": "packages/nextjs/README.md",
+      "bytes": 1050,
+      "sha256": "8582aa04352bfb90aaff27cf3acd6e5daab78234f070b3253df939018508679e"
+    },
+    {
+      "path": "packages/nextjs/package.json",
+      "bytes": 1192,
+      "sha256": "9220d2e7b43afe942314be35deca7f991e86245819bb4fc68ff44c63e0f4aa83"
+    },
+    {
+      "path": "packages/nextjs/src/adapter.ts",
+      "bytes": 28019,
+      "sha256": "c777d226df330da826585bb88ff9a9995d7cd4f518bb4365151225f63b42d965"
+    },
+    {
+      "path": "packages/nextjs/src/index.ts",
+      "bytes": 400,
+      "sha256": "9de5baed948d3bac6b4a7b97cb8882b8e469d05307d5d5f8390d27ba643fa203"
+    },
+    {
+      "path": "packages/nextjs/src/lock.ts",
+      "bytes": 1342,
+      "sha256": "16def7f9d662066083fc7b66779dba5b6350c5c387f9c529fdade192eafd0666"
+    },
+    {
+      "path": "packages/nextjs/src/store.ts",
+      "bytes": 2247,
+      "sha256": "77d2e8d4444d2d2875e42550cff282cd712346b35ea7e887636531c9e9ce308b"
+    },
+    {
+      "path": "packages/nextjs/test/adapter.test.ts",
+      "bytes": 4961,
+      "sha256": "fee3894c227f609f395335ce76bd807b9b921c9d8148abff545ec68ddf1cd066"
+    },
+    {
+      "path": "packages/nextjs/test/refresh-concurrency.test.ts",
+      "bytes": 7346,
+      "sha256": "c029d3ea09d4bb2cf55f313aee9e6b7d23fff9643731dc5831514d163110274d"
+    },
+    {
+      "path": "packages/nextjs/test/reverse-proxy-callback.test.ts",
+      "bytes": 3158,
+      "sha256": "dc630284af655f47588ae3376c6248b873d9fef828fd0e9da15f864bd919671a"
+    },
+    {
+      "path": "packages/nextjs/test/session-cookie-domain.test.ts",
+      "bytes": 4793,
+      "sha256": "d7ab826e746eb7920186a03cca6a67a1edf430b478f7e1a288cc56912ba7736a"
+    },
+    {
+      "path": "packages/nextjs/tsconfig.build.json",
+      "bytes": 233,
+      "sha256": "be87865a03b1503b3ff65d8170f50fe1b4888aa5e9a8667910fe486a8f70f449"
+    },
+    {
+      "path": "packages/nextjs/tsconfig.json",
+      "bytes": 148,
+      "sha256": "3884596b8eba41549c55ee7ac3f4da0b39bd9e8784cd8d921c90b5331da27c9b"
+    },
+    {
+      "path": "packages/sdk/LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "packages/sdk/NOTICE",
+      "bytes": 224,
+      "sha256": "dc108c5070eb593e42d0f126e91fd47c7f2416d627cd53a9cd1198120e5bc5ba"
+    },
+    {
+      "path": "packages/sdk/README.md",
+      "bytes": 1183,
+      "sha256": "0b0db922bb9920ae9e6ea5c8e585b7f7a73c141ff44d1149e12e421649043178"
+    },
+    {
+      "path": "packages/sdk/package.json",
+      "bytes": 1108,
+      "sha256": "207cd8033bcb0e9f0cb72fb3fcfc667ed696dd2eb186d2f60c331d102bd7272d"
+    },
+    {
+      "path": "packages/sdk/src/auth.ts",
+      "bytes": 19211,
+      "sha256": "63c83e7bac3b55fca56143d44ef20280bee48943f1c6495eeb0580844a336140"
+    },
+    {
+      "path": "packages/sdk/src/client.ts",
+      "bytes": 6934,
+      "sha256": "6041f662abe5e29f2b3b6be8e80613ac2c6b09c629e8cd36196fccb8148bb6d6"
+    },
+    {
+      "path": "packages/sdk/src/config.ts",
+      "bytes": 4147,
+      "sha256": "0a37755aab583162b58c0103724a1382c58d193f740506b69a883bab1c3cba3b"
+    },
+    {
+      "path": "packages/sdk/src/errors.ts",
+      "bytes": 8548,
+      "sha256": "a0a81998f302380729aff3ff3943ee589633b743290151572f422594c7d55daf"
+    },
+    {
+      "path": "packages/sdk/src/index.ts",
+      "bytes": 2478,
+      "sha256": "cbdb2c592a0f89b31517fea09be459517f49995eb058a5823ea7b4d61ae7f87e"
+    },
+    {
+      "path": "packages/sdk/src/oauth.ts",
+      "bytes": 24913,
+      "sha256": "b599e5a168dc442f457f77cac725bd3a6de409b2a919fedc029766e521b52185"
+    },
+    {
+      "path": "packages/sdk/src/oidc.ts",
+      "bytes": 6800,
+      "sha256": "b2e39ceac9c54b6b81d340ab3d6acbbb8d25e470afc97ab9c499d2d02f243567"
+    },
+    {
+      "path": "packages/sdk/src/passport.ts",
+      "bytes": 19638,
+      "sha256": "678cdf6d204955329150d8cd715b1b398e3cac29b736270a4adef35b980a6337"
+    },
+    {
+      "path": "packages/sdk/src/pkce.ts",
+      "bytes": 1601,
+      "sha256": "aa0449546c903c1537aacb215ad8ca46f2e96831d30bbe42e23876cd7eaae947"
+    },
+    {
+      "path": "packages/sdk/src/scopes.ts",
+      "bytes": 415,
+      "sha256": "1956e354bc7264be410312d3a436fef09d639b0e7f3a5f043593627ce72c26b8"
+    },
+    {
+      "path": "packages/sdk/src/transport.ts",
+      "bytes": 13911,
+      "sha256": "987d6b0308e8b31ea33530bf4c763f29cb6161e8371de99bf00106289e17f77b"
+    },
+    {
+      "path": "packages/sdk/src/trust.ts",
+      "bytes": 6989,
+      "sha256": "73348d5134db9f751d5cf3c4be1e178f72fff104bb444e375cf5b29bfb81880f"
+    },
+    {
+      "path": "packages/sdk/src/wire.ts",
+      "bytes": 2932,
+      "sha256": "6e99f2b7a872f41c49c7cf5b354674e9758dbd752314bf057627c628b93ae27a"
+    },
+    {
+      "path": "packages/sdk/test/auth-complete.test.ts",
+      "bytes": 20394,
+      "sha256": "15e63f94411038c7c2e4b75bec7268a54cd02071c0df7ac3ca1590b6790ae9cb"
+    },
+    {
+      "path": "packages/sdk/test/auth-lifecycle.test.ts",
+      "bytes": 29434,
+      "sha256": "ec63c61a07db2f4f6525a6429a25335c185a4de25ac6f1b0f861073aa8076967"
+    },
+    {
+      "path": "packages/sdk/test/auth.test.ts",
+      "bytes": 8590,
+      "sha256": "cd3853c1c14be87e5f195dff25dc161cc243cbe5d4c1a53fd4faa326a841ba44"
+    },
+    {
+      "path": "packages/sdk/test/client.test.ts",
+      "bytes": 3720,
+      "sha256": "ab284682098bcb3ceb08c0f8e1f2adc0c45cc8d0a5180b1c3069bc3d45ebec99"
+    },
+    {
+      "path": "packages/sdk/test/config.test.ts",
+      "bytes": 2455,
+      "sha256": "f09150c6434a7c1792884d3f9de0fd9d2e8fd284fc0641dc430c2a5123ac0146"
+    },
+    {
+      "path": "packages/sdk/test/errors.test.ts",
+      "bytes": 4031,
+      "sha256": "3230f5c730a3ce281e5fa1582321e68a65a30a5a8006dd67642cb71a6fdb6c6e"
+    },
+    {
+      "path": "packages/sdk/test/passport-trust.test.ts",
+      "bytes": 11165,
+      "sha256": "28fa948f910b674432d24e7a5be19dcc8ad86de8987a6c9ab3c52cc4d5a72b18"
+    },
+    {
+      "path": "packages/sdk/test/pkce.test.ts",
+      "bytes": 1492,
+      "sha256": "b89099fe773c37708bba7c1d998ac245f20f4df0fc1129a85bb2feb7aef7727d"
+    },
+    {
+      "path": "packages/sdk/test/retry-after.test.ts",
+      "bytes": 2438,
+      "sha256": "88c77dde7c54d2cda5460d3fdaf2f5d02bff0091885c7538d73ad59c2905030a"
+    },
+    {
+      "path": "packages/sdk/test/transport.test.ts",
+      "bytes": 10818,
+      "sha256": "02e14f79d7846806210f6c9fa4097469286fae6961be39626bcc62d08c781c80"
+    },
+    {
+      "path": "packages/sdk/tsconfig.build.json",
+      "bytes": 233,
+      "sha256": "be87865a03b1503b3ff65d8170f50fe1b4888aa5e9a8667910fe486a8f70f449"
+    },
+    {
+      "path": "packages/sdk/tsconfig.json",
+      "bytes": 148,
+      "sha256": "3884596b8eba41549c55ee7ac3f4da0b39bd9e8784cd8d921c90b5331da27c9b"
+    },
+    {
+      "path": "packages/server/LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "packages/server/NOTICE",
+      "bytes": 224,
+      "sha256": "dc108c5070eb593e42d0f126e91fd47c7f2416d627cd53a9cd1198120e5bc5ba"
+    },
+    {
+      "path": "packages/server/README.md",
+      "bytes": 1124,
+      "sha256": "539b9569ecb3551542bcafbbdfe04385673aa412985b1f1b021ea10c730ebbd6"
+    },
+    {
+      "path": "packages/server/package.json",
+      "bytes": 1144,
+      "sha256": "545c6838e11fd62b7b0ed8128da9559e2fbd4dbcc7f4c7b8bf2a0ff72d4dbd9f"
+    },
+    {
+      "path": "packages/server/src/client.ts",
+      "bytes": 7554,
+      "sha256": "39545039e33cec11c8e77df75f3e50aae5a02a24f274d8e887e8aaa4a95f1da8"
+    },
+    {
+      "path": "packages/server/src/index.ts",
+      "bytes": 2076,
+      "sha256": "947d7092f134656afb9b546e24f5d3c61deff3c337132b8cc5821b8c62cd49c1"
+    },
+    {
+      "path": "packages/server/src/issuer.ts",
+      "bytes": 36779,
+      "sha256": "505d3b97ddc27a70464706ff6bd89eaa7af44f2f02d0c875cd6fc7dacdda1200"
+    },
+    {
+      "path": "packages/server/src/models.ts",
+      "bytes": 7314,
+      "sha256": "7e6a42e5848a0ba96ea73244ac0bfcc55f79fceacb25188d04ef0a2904423074"
+    },
+    {
+      "path": "packages/server/src/scopes.ts",
+      "bytes": 1369,
+      "sha256": "449268a5a9820e1f5056e108932644e38ea74d70afc8e7cd6cc219522f3cc71e"
+    },
+    {
+      "path": "packages/server/src/webhooks.ts",
+      "bytes": 24769,
+      "sha256": "3c66231a1adfd57e85f3da7413686069e6438e9dab0f292eb1f128a1014d72e8"
+    },
+    {
+      "path": "packages/server/src/wire.ts",
+      "bytes": 2826,
+      "sha256": "b2d73b1319f12fd92f7e980744709868cbad733e9ce8520cdbacc9956445fba4"
+    },
+    {
+      "path": "packages/server/test/membership-null-role.test.ts",
+      "bytes": 1301,
+      "sha256": "fc5c4ba74357ad051ae6a27dcfd31787c2632408669af1ab8c097a852cabdd7b"
+    },
+    {
+      "path": "packages/server/test/server.test.ts",
+      "bytes": 9551,
+      "sha256": "7895d3be38f06129b1391f7008c485ecb211e9588ae10d3fb5d318739a70bdd0"
+    },
+    {
+      "path": "packages/server/tsconfig.build.json",
+      "bytes": 233,
+      "sha256": "be87865a03b1503b3ff65d8170f50fe1b4888aa5e9a8667910fe486a8f70f449"
+    },
+    {
+      "path": "packages/server/tsconfig.json",
+      "bytes": 183,
+      "sha256": "9ffde4bddacac714cd30bbd9bb12adc2bc0bdf869fa572808af09a267270ea9c"
+    },
+    {
+      "path": "tsconfig.sdk.json",
+      "bytes": 731,
+      "sha256": "a4f820be7b8c1cd2d9e7207120037603cf25f0e7b0b0a23cb46e34ffa4d60768"
+    }
+  ]
+}

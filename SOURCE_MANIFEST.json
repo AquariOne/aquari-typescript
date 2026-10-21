@@ -1,7 +1,7 @@
 {
   "family": "typescript",
   "version": "1.0.0",
-  "source_commit": "cf893e2d16b86550dc2df1cb997112635fd8b0e1",
+  "source_commit": "f7b9f1a0848c8b1b35d88370f24b816a76a0a890",
   "source_worktree_dirty": false,
   "note": "SDK-only export. No private monorepo Git history is included.",
   "files": [
@@ -32,8 +32,8 @@
     },
     {
       "path": "package-lock.json",
-      "bytes": 122210,
-      "sha256": "fdc2d21eaedd8ccc284e72173f2844e5f40a41922a21a3015ae1cdb71e9dab13"
+      "bytes": 123335,
+      "sha256": "b2855399a4f6d38f5ccb521e984e2aa99b6ba4fce808ab2e0838423e899655ed"
     },
     {
       "path": "package.json",
@@ -58,7 +58,7 @@
     {
       "path": "packages/nextjs/package.json",
       "bytes": 1192,
-      "sha256": "9220d2e7b43afe942314be35deca7f991e86245819bb4fc68ff44c63e0f4aa83"
+      "sha256": "e085859ab9d319522633833b851ab17b5ac27f89879cea4dab8eee421ac13d9f"
     },
     {
       "path": "packages/nextjs/src/adapter.ts",
